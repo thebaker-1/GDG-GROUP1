@@ -29,9 +29,8 @@ A RESTful API built with Django and Django REST framework for a social media pla
   - Comprehensive documentation via Swagger UI
 
 ## How to Use
-
 # Clone the repository
-git clone https://github.com/thebaker-1/GDG-GROUP1
+git clone https://github.com/thebaker-1/GDG-GROUP1.git
 
 # Create a virtual environment and activate it
 python -m venv venv

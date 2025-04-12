@@ -1,5 +1,19 @@
 # About This Project
 A RESTful API using Django and Django REST framework for a social media platform, enabling user registration, profile management, post creation and retrieval, interactions like likes and comments, and other core social media functionalities, and view API documentation via swagger.
+  #HOW TO USE 
+# Clone the repository
+git clone https://github.com/olenaliuby/social-media-api.git
+
+# Create a virtual environment and activate it
+python -m venv venv
+source venv/bin/activate
+
+# Install necessary packages
+pip install -r requirements.txt
+
+# Apply migrations and start the server
+python manage.py migrate
+python manage.py runserver
 
 ### Features:
     User Profile Management: Users can create, retrieve, and update their profiles, including profile pictures, bios, and other details. 

@@ -1,3 +1,4 @@
 django>=3.2,<5.0
 djangorestframework 
 djangorestframework-simplejwt 
+drf_yasg

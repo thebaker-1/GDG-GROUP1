@@ -1,7 +1,7 @@
 from django.shortcuts import render
 
 # Create your views here.
-from .models import Follow, Like, Comment
+from .models import Follow, Like
 from .serializers import CommentCreateSerializer
 from rest_framework.views import APIView
 from rest_framework.response import Response
